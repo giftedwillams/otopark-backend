@@ -1,0 +1,33 @@
+[2026-06-13 21:04:18] [INFO]: Yediemin Otopark Otomasyon Sunucusu port 5000 üzerinde güvenli modda çalışıyor...
+[2026-06-13 21:04:19] [INFO]: MySQL Veritabanına başarıyla bağlanıldı! (Localhost)
+[2026-06-13 21:27:07] [INFO]: Yediemin Otopark Otomasyon Sunucusu port 5000 üzerinde güvenli modda çalışıyor...
+[2026-06-13 21:27:07] [INFO]: MySQL Veritabanına başarıyla bağlanıldı! (Localhost)
+[2026-06-13 21:27:39] [INFO]: Yediemin Otopark Otomasyon Sunucusu port 5000 üzerinde güvenli modda çalışıyor...
+[2026-06-13 21:27:39] [INFO]: MySQL Veritabanına başarıyla bağlanıldı! (Localhost)
+[2026-06-13 21:30:17] [INFO]: Yediemin Otopark Otomasyon Sunucusu port 5000 üzerinde güvenli modda çalışıyor...
+[2026-06-13 21:30:18] [INFO]: MySQL Veritabanına başarıyla bağlanıldı! (Localhost)
+[2026-06-13 21:34:16] [INFO]: Yüksel Otopark Otomasyon Sunucusu port 5000 üzerinde güvenli modda çalışıyor...
+[2026-06-13 21:34:16] [INFO]: MySQL Bulut Veritabanına başarıyla bağlanıldı!
+[2026-06-13 21:35:45] [INFO]: Yüksel Otopark Otomasyon Sunucusu port 5000 üzerinde güvenli modda çalışıyor...
+[2026-06-13 21:35:46] [INFO]: MySQL Bulut Veritabanına başarıyla bağlanıldı!
+[2026-06-13 21:35:46] [INFO]: Bulut veritabanı tabloları hazır ve güncel!
+[2026-06-13 21:35:46] [INFO]: Varsayılan admin kullanıcısı bulut veritabanına eklendi. (Şifre: 123456)
+[2026-06-13 21:45:07] [INFO]: Sisteme başarılı giriş yapıldı - Kullanıcı: admin
+[2026-06-13 21:46:20] [INFO]: Yeni araç girişi yapıldı - Plaka: 67FA268, Marka/Model: Renault Broadway, Tür: Otomobil
+[2026-06-13 21:46:42] [INFO]: Yeni araç girişi yapıldı - Plaka: 34SA187, Marka/Model: Yamaha R25, Tür: Motosiklet
+[2026-06-13 21:46:52] [INFO]: Araç çıkışı yapıldı - Plaka: 34SA187, Süre: 4 saat, Alınan Ücret: 120 TL
+[2026-06-13 21:47:11] [INFO]: Araç çıkışı yapıldı - Plaka: 67FA268, Süre: 4 saat, Alınan Ücret: 200 TL
+[2026-06-13 21:47:20] [INFO]: Yeni araç girişi yapıldı - Plaka: SSD, Marka/Model: Sd Aa, Tür: Otomobil
+[2026-06-13 21:48:38] [INFO]: Yüksel Otopark Otomasyon Sunucusu port 5000 üzerinde güvenli modda çalışıyor...
+[2026-06-13 21:48:39] [INFO]: MySQL Bulut Veritabanına başarıyla bağlanıldı!
+[2026-06-13 21:48:39] [INFO]: Bulut veritabanı tabloları hazır ve güncel!
+[2026-06-13 21:48:47] [INFO]: Yeni araç girişi yapıldı - Plaka: SKSKA, Marka/Model: Södmsm Sdc, Tür: Otomobil
+[2026-06-13 21:54:46] [INFO]: Yüksel Otopark Otomasyon Sunucusu port 5000 üzerinde güvenli modda çalışıyor...
+[2026-06-13 21:54:47] [INFO]: MySQL Bulut Veritabanına başarıyla bağlanıldı!
+[2026-06-13 21:54:47] [INFO]: Bulut veritabanı tabloları hazır ve güncel!
+[2026-06-13 21:54:55] [INFO]: Sisteme başarılı giriş yapıldı - Kullanıcı: admin
+[2026-06-13 21:56:18] [INFO]: Yüksel Otopark Otomasyon Sunucusu port 5000 üzerinde güvenli modda çalışıyor...
+[2026-06-13 21:56:18] [INFO]: MySQL Bulut Veritabanına başarıyla bağlanıldı!
+[2026-06-13 21:56:18] [INFO]: Bulut veritabanı tabloları hazır ve güncel!
+[2026-06-13 21:56:23] [INFO]: Araç çıkışı yapıldı - Plaka: SKSKA, Süre: 4 saat, Alınan Ücret: 200 TL
+[2026-06-13 21:56:28] [INFO]: Araç çıkışı yapıldı - Plaka: SSD, Süre: 7 saat, Alınan Ücret: 350 TL
