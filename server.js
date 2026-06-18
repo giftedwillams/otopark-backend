@@ -26,7 +26,8 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // ==========================================
-// AIVEN BULUT VERİTABANI BAĞLANTI AYARLARI
+// ==========================================
+// AIVEN BULUT VERİTABANI BAĞLANTI AYARLARI (GÜNCEL)
 // ==========================================
 const db = mysql.createConnection({
     host: 'mysql-128e52be-yuksel-otopark.g.aivencloud.com',
@@ -35,7 +36,8 @@ const db = mysql.createConnection({
     password: 'AVNS_QzRXCaq-pbZv8VOlz7W', 
     database: 'defaultdb',
     ssl: {
-        rejectUnauthorized: false
+        require: true,
+        rejectUnauthorized: false // Aiven'ın self-signed sertifikasını kabul etmesi için
     }
 });
 
