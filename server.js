@@ -94,16 +94,22 @@ db.connect(err => {
 // 1. GİRİŞ YAPMA BAĞLANTISI (Login API)
 app.post('/api/login', (req, res) => {
     const { kullanici_adi, sifre } = req.body;
-    db.query('SELECT * FROM kullanicilar WHERE kullanici_adi = ? AND sifre = ?', [kullanici_adi, sifre], (err, results) => {
+    
+    // Trim ekleyerek boşluk hatalarını engelliyoruz
+    const kAdi = kullanici_adi ? kullanici_adi.trim() : "";
+    const kSifre = sifre ? sifre.trim() : "";
+
+    db.query('SELECT * FROM kullanicilar WHERE kullanici_adi = ?', [kAdi], (err, results) => {
         if (err) {
             logger.error(`Giriş işlemi sırasında veritabanı hatası: ${err.message}`);
             return res.status(500).send(err);
         }
-        if (results.length > 0) {
-            logger.info(`Sisteme başarılı giriş yapıldı - Kullanıcı: ${kullanici_adi}`);
+        
+        if (results.length > 0 && results[0].sifre === kSifre) {
+            logger.info(`Sisteme başarılı giriş yapıldı - Kullanıcı: ${kAdi}`);
             res.send({ success: true, message: 'Giriş Başarılı!' });
         } else {
-            logger.warn(`Hatalı giriş denemesi - Kullanıcı: ${kullanici_adi}`);
+            logger.warn(`Hatalı giriş denemesi - Kullanıcı: ${kAdi}`);
             res.send({ success: false, message: 'Hatalı Kullanıcı Adı veya Şifre!' });
         }
     });
